@@ -1,0 +1,52 @@
+{
+  "id": "dungeonsports-coliseum",
+  "title": "DungeonSports Coliseum",
+  "description": "A free collection of DSC Content",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {"minimum": "11"}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Voivode Kohoutek",
+      "email": "info@dungeonsport.com",
+      "url": "www.dungeonsports.com",
+      "discord": "Voivode Kohoutek#1379"
+    }
+  ],
+  "url": "www.dungeonsports.com",
+  "packs": [
+    {
+      "name": "dsc-scenes",
+      "label": "DSC Scenes",
+      "path": "packs/dsc-scenes",
+      "type": "Scene",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "dsc-items",
+      "label": "DSC Items",
+      "path": "packs/dsc-items",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ]
+}
