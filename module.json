@@ -12,7 +12,7 @@
       {
         "id": "dnd5e",
         "type": "system",
-        "compatibility": {"minimum": "11"}
+        "compatibility": {"minimum": "2"}
       }
     ]
   },
