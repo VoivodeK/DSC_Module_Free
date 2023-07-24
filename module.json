@@ -12,7 +12,9 @@
       {
         "id": "dnd5e",
         "type": "system",
-        "compatibility": {"minimum": "2"}
+        "compatibility": {
+          "minimum": "2"
+        }
       }
     ]
   },
@@ -29,6 +31,17 @@
   "download": "https://github.com/VoivodeK/DSC_Module_Free/releases/download/Test1/module.zip",
   "packs": [
     {
+      "name": "dsc-items",
+      "label": "DSC Items",
+      "path": "packs/dsc-items",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "dsc-scenes",
       "label": "DSC Scenes",
       "path": "packs/dsc-scenes",
@@ -40,10 +53,21 @@
       }
     },
     {
-      "name": "dsc-items",
-      "label": "DSC Items",
-      "path": "packs/dsc-items",
-      "type": "Item",
+      "name": "dsc-adventure",
+      "label": "DSC Adventure",
+      "path": "packs/dsc-adventure",
+      "type": "Adventure",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "dsc-stat-blocks",
+      "label": "DSC Stat Blocks",
+      "path": "packs/dsc-stat-blocks",
+      "type": "Actor",
       "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
